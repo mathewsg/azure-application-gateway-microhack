@@ -4,7 +4,7 @@
 
 variable "azure_location" {
   type        = string
-  default     = "westeurope"
+  default     = "uksouth"
   description = "Azure resources location"
 }
 
@@ -22,7 +22,7 @@ variable "admin_password" {
 
 variable "vm_size" {
   type        = string
-  default     = "Standard_DS1_v2"
+  default     = "Standard_D2s_v3"
   description = "VM Size"
 }
 
