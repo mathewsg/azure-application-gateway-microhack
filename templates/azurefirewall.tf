@@ -20,7 +20,7 @@ resource "azurerm_firewall_policy" "hub-azfirewall-policy" {
   name                     = "AzureFirewallPolicy"
   resource_group_name      = azurerm_resource_group.hub-rg.name
   location                 = azurerm_resource_group.hub-rg.location
-  sku                      = "Premium"
+  sku                      = "Standard"
   threat_intelligence_mode = "Off"
 
   # TO FIX
